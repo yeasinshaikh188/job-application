@@ -1,0 +1,95 @@
+* {
+  font-family: "Reddit Sans Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ccc;
+}
+.container{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: 3, 4, 5, red;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 40px;
+  padding: 10px;
+  align-items: center;
+}
+.container h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.small-text{
+    font-size: 30px;
+}
+label{
+    font-size: 20px;
+}
+.input{
+    font-size: 17px;
+    width: 260px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 7px;
+    
+}
+.job-app, .second-div, .third-div, .fourth-div{
+    display: flex;
+    justify-content: space-between;
+}
+.job-app{
+    margin-bottom: 40px;
+}
+.first-name{
+    margin-right: 150px;
+}
+.textarea{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.form{
+    padding: 50px;
+}
+#text{
+    padding: 30px;
+}
+.fourth-div{
+    margin-top: 50px;
+}
+.btn{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: end;
+    animation: demo 7s linear 1s alternate;
+}
+@keyframes demo{
+    0%{
+        background-color: yellowgreen;
+    }
+    50%{
+        background-color: black;
+    }
+    75%{
+        background-color: blue;
+        opacity: 0.7;
+    }
+    100%{
+        background-color: blue;
+        opacity: 1;
+    }
+}
+.button{
+    font-size: 22px;
+    padding: 10px;
+    background-color: #070A52;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    animation: demo 7s linear 1s infinite alternate;
+}

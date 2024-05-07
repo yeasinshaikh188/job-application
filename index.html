@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Reddit+Sans+Condensed:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+        <fieldset>
+      <form class="form" action="">
+        <h1>Job Application <span class="small-text">(web)</span></h1>
+        <div class="job-app">
+          <div class="first-name">
+            <label for="first-name">First Name :</label><br>
+            <input class="input" type="text" placeholder="Enter Your First Name" id="first-name" autofocus />
+          </div>
+          <div class="last-name">
+          <label for="last-name">Last Name :</label><br>
+          <input class="input" type="text" placeholder="Enter Your Last Name" id="last-name">
+        </div>
+        </div>
+        <div class="second-div">
+<div class="email">
+    <label for="email" >email :</label><br>
+<input class="input" type="email" placeholder="Enter Your Email" id="email" required>
+</div>
+<div class="job-role">
+    <label for="job">Select Your Job :</label><br>
+    <select class="input" id="job">
+        <option value="">Select Your job</option>
+        <option value="frontend">Front End Developer</option>
+        <option value="backend">Back End Developer</option>
+        <option value="fullStack">Full Stack Developer</option>
+        <option value="UI XI Designer">UI XI Designer</option>
+    </select>
+</div>
+        </div>
+        <div class="textarea">
+            <textarea name="" id="text" cols="130" rows="10" placeholder="write somthing..."></textarea>
+        </div>
+        <div class="third-div">
+            <div class="city">
+                <label for="city">City :</label><br>
+                <input class="input" type="text" placeholder="Enter Your City" id="city">
+            </div>
+            <div class="pin-code">
+                <label for="pin-code">pin-code :</label><br>
+                <input class="input" type="number" placeholder="Enter Your Code" id="pin-code">
+            </div>
+        </div>
+        <div class="fourth-div">
+            <div>
+                <label for="date">Star Date :</label><br>
+                <input class="input" type="date" placeholder="Enter Your Date" id="date">
+            </div>
+            <div>
+                <label for="file">Upload You Cv :</label><br>
+                <input class="input" type="file" placeholder="Choes file" id="file">
+            </div>
+        </div>
+        <div 
+        class="btn">
+            <button class="button">Apply Now</button>
+        </div>
+      </form>
+    </fieldset>
+    </div>
+  </body>
+</html>
